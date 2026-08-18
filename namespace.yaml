@@ -1,0 +1,8 @@
+# manifests/namespace.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: argocd-nginx
+  labels:
+    app: nginx-demo
+    managed-by: argocd
