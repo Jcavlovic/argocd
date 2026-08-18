@@ -1,0 +1,1 @@
+Basic Nginx deployment using ArgoCD
