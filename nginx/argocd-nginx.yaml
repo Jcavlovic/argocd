@@ -10,7 +10,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/yourorg/nginx-gitops.git
+    repoURL: https://github.com/Jcavlovic/argocd-nginx
     targetRevision: main
     path: manifests
   destination:
