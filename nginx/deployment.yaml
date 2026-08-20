@@ -3,9 +3,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx
-  namespace: nginx-demo
+  namespace: argocd-nginx
   labels:
     app: nginx
+  annnotations:
+    argocd.argoproj.io/sync-wave: "1"
 spec:
   replicas: 1
   selector:

@@ -4,6 +4,8 @@ kind: ConfigMap
 metadata:
   name: nginx-html
   namespace: argocd-nginx
+  annnotations:
+    argocd.argoproj.io/sync-wave: "0"
 data:
   index.html: |
     <!DOCTYPE html>

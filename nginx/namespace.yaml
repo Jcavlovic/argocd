@@ -6,3 +6,5 @@ metadata:
   labels:
     app: nginx-demo
     managed-by: argocd
+  annnotations:
+    argocd.argoproj.io/sync-wave: "-1"

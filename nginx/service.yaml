@@ -6,6 +6,8 @@ metadata:
   namespace: argocd-nginx
   labels:
     app: nginx
+  annnotations:
+    argocd.argoproj.io/sync-wave: "1"
 spec:
   type: ClusterIP
   ports:
